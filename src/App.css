@@ -1,38 +1,97 @@
 .App {
-  text-align: center;
+  text-align: center;  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.App-background{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: top;
   font-size: calc(10px + 2vmin);
-  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  opacity: 0.80;  
+}
+.me-auto{
+  text-align: left;
+  width: 100%;
+  background-color: white;
+}
+.nav{
+  background-color: white;
+}
+.navbar-link {
+  float: left;
+  padding: 24px;
+  text-decoration: none;
+  font-size: 26px;
+  width: 25%;
+  text-align: center; 
+  color:black;
+}
+.navbar-link:hover {
+  background-color: rgba(190, 50, 50, 0.726);
+}
+.info{
+  background-color: white;
+  color:black; 
+  margin-left: 60px;
+  margin-right: 60px;  
+} 
+
+.about{
+  margin-top: 100px;
+  background-color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 22px;
+  padding-left: 2em;
+  padding-right: 2em;
+  align-items: center;
+}
+.carousel{
+  margin-top: 100px;
+  background-color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 22px;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.footer1{
+  margin-top: 0.25 rem;
+  padding:0.25 rem;
+  background-color:white ;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: large; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer2{
+  display: "flex";
+  flex-direction: row;
+  justify-content:"space-between";
+}
+
+.formcontainer{
+  margin-top: 100px;
+  background-color: white;
+  width:660px;
+}
+
+.photocontainer{
+  background-color: white;
+  margin-top: 100px;
+}
+
+.textcontainer{
+  background-color: white;
+  margin-top:100px;
 }
