@@ -20,8 +20,8 @@ function App() {
     <div className="App-background" style = {{ backgroundImage: `url(${lroom})`}}>
     <Header/>
     <br/>
-    <BrowserRouter>
-      <NavBar/> 
+    <NavBar/> 
+    <BrowserRouter>  
         <Routes>
           <Route exact path='/*' element={<Home />} />
           <Route exact path='/AboutUs/*' element={<AboutUs/>}/>
