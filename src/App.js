@@ -22,11 +22,11 @@ function App() {
     <BrowserRouter>
       <NavBar/> 
         <Routes>
-          <Route path='/AboutUs*' element={<AboutUs/>}/>
-          <Route path='/Buckhead*' element={<Buckhead/>}/>
-          <Route path='/WestEnd*' element={<WestEnd/>}/>
-          <Route path='/Events*' element={<Events/>}/>
-          <Route path='/Contact*' element={<Contact/>}/>
+          <Route exact path='/AboutUs*' element={<AboutUs/>}/>
+          <Route exact path='/Buckhead*' element={<Buckhead/>}/>
+          <Route exact path='/WestEnd*' element={<WestEnd/>}/>
+          <Route exact path='/Events*' element={<Events/>}/>
+          <Route exact path='/Contact*' element={<Contact/>}/>
           </Routes>
     </BrowserRouter>
     <br/>                
