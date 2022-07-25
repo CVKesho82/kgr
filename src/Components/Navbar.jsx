@@ -13,7 +13,7 @@ function NavBar() {
   
   <Navbar fixed="top" bg="light" variant="white" className="nav">
     <Container className="nav">
-     <Navbar.Brand href="#home"> 
+     <Navbar.Brand href="Home"> 
       <img src={KESHOGROUP} width="135" height="120"></img>
       </Navbar.Brand> 
     <Nav className="me-auto">

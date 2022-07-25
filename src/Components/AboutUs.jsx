@@ -5,10 +5,6 @@ function AboutUs() {
   return (
     <div className="about">
     <br></br>
-    <h2>Your <marquee behavior="scroll" direction="up"scrollamount="5"> Home<br></br>
-    Office<br></br>Event Space
-    </marquee> away from home. </h2>
-    <br></br>
     <div>
     Kesho Group Rentals (KGR) was established in Atlanta, Georgia in 2012. Since its inception, KGR has been laser focused on its vision of beautifying Atlanta communities while providing quality housing experiences through property restoration, renovation, and rentals. 
     

@@ -12,6 +12,7 @@ import Contact from './Components/Contact';
 import Buckhead from './Components/Buckhead';
 import WestEnd from './Components/WestEnd';
 import Events from './Components/Events';
+import Home from './Components/Home';
 import {HashRouter} from 'react-router-dom';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
     <BrowserRouter>
       <NavBar/> 
         <Routes>
+          <Route exact path='/*' element={<Home />} />
           <Route exact path='/AboutUs/*' element={<AboutUs/>}/>
           <Route exact path='/Buckhead/*' element={<Buckhead/>}/>
           <Route exact path='/WestEnd/*' element={<WestEnd/>}/>
