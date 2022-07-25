@@ -10,6 +10,7 @@ import {BrowserRouter} from 'react-router-dom';
 <React.StrictMode>
  <App />
  </React.StrictMode>
+ 
 );
  
  
