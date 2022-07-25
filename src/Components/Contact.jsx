@@ -19,7 +19,7 @@ function Contact() {
     <Form.Control type="phonenumber" placeholder="xxx-xxx-xxxx" />
   </Form.Group>
   <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-    <Form.Label>Short event description (include date and number of guests)</Form.Label>
+    <Form.Label>Brief event description</Form.Label>
     <Form.Control as="textarea" rows={3} />
   </Form.Group>
   <br></br>

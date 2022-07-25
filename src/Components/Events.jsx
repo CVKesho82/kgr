@@ -47,7 +47,7 @@ function Events() {
       </Col>
       <Col>
       <Card border="secondary" style={{ width: '18rem' }}>
-        <Card.Header><h3>Corporte Retreats</h3></Card.Header>
+        <Card.Header><h3>Corporate Retreats</h3></Card.Header>
         <Card.Body>
           <Card.Title>10 hr rental</Card.Title>
           <Card.Text>
