@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kgr/static/css/main.04882f34.css",
-    "main.js": "/kgr/static/js/main.ac08a990.js",
+    "main.css": "/kgr/static/css/main.1dce86c4.css",
+    "main.js": "/kgr/static/js/main.ceefbc9e.js",
     "static/js/787.840a8a92.chunk.js": "/kgr/static/js/787.840a8a92.chunk.js",
     "static/media/outdoor.jpg": "/kgr/static/media/outdoor.8b94e1a2ddadaabc8cfc.jpg",
     "static/media/Exterior.jpg": "/kgr/static/media/Exterior.ec4ee89c9f99fdd707af.jpg",
@@ -18,7 +18,6 @@
     "static/media/guestbathroom.jpg": "/kgr/static/media/guestbathroom.54463ee05aec5770099d.jpg",
     "static/media/downstairs.jpg": "/kgr/static/media/downstairs.0f37fb0c478ede7c0880.jpg",
     "static/media/kitchen2.jpg": "/kgr/static/media/kitchen2.1c319452486465938c63.jpg",
-    "static/media/LOGO.jpg": "/kgr/static/media/LOGO.77af2c82855e063ec931.jpg",
     "static/media/downstairsbunk.jpg": "/kgr/static/media/downstairsbunk.1cd7d0417b7481f12ca4.jpg",
     "static/media/camillaliving2.jpg": "/kgr/static/media/camillaliving2.41092b042118261bbf6f.jpg",
     "static/media/mbath.jpg": "/kgr/static/media/mbath.569ca1a3b42eb7fafa13.jpg",
@@ -28,13 +27,14 @@
     "static/media/camillabathroom.jpg": "/kgr/static/media/camillabathroom.cb4800562f0d4fda08ee.jpg",
     "static/media/cambed.jpg": "/kgr/static/media/cambed.c9a18c208e5f8fb335cd.jpg",
     "static/media/camillaliving4.jpg": "/kgr/static/media/camillaliving4.60f89f8093c1906764cc.jpg",
+    "static/media/KESHOGROUP.jpg": "/kgr/static/media/KESHOGROUP.408069e36e6c2c3e3382.jpg",
     "index.html": "/kgr/index.html",
-    "main.04882f34.css.map": "/kgr/static/css/main.04882f34.css.map",
-    "main.ac08a990.js.map": "/kgr/static/js/main.ac08a990.js.map",
+    "main.1dce86c4.css.map": "/kgr/static/css/main.1dce86c4.css.map",
+    "main.ceefbc9e.js.map": "/kgr/static/js/main.ceefbc9e.js.map",
     "787.840a8a92.chunk.js.map": "/kgr/static/js/787.840a8a92.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04882f34.css",
-    "static/js/main.ac08a990.js"
+    "static/css/main.1dce86c4.css",
+    "static/js/main.ceefbc9e.js"
   ]
 }
