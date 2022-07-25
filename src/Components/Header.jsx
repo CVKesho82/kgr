@@ -5,7 +5,7 @@ import Info from './Info';
 
 function Header() {
   return (
-    <div className="kgp-header"><h1>Kesho Group Properties</h1>
+    <div className="kgp-header"><h1>Kesho Group Rentals</h1>
     </div>  
   )
 }

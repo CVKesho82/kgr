@@ -49,6 +49,7 @@
   padding-left: 2em;
   padding-right: 2em;
   align-items: center;
+  border-radius: 10px;
 }
 .carousel{
   margin-top: 100px;
@@ -82,16 +83,22 @@
 
 .formcontainer{
   margin-top: 100px;
-  background-color: white;
+  background-color:white;
   width:660px;
+  border-radius: 10px;
 }
 
 .photocontainer{
   background-color: white;
   margin-top: 100px;
+  border-radius: 10px;
 }
 
 .textcontainer{
-  background-color: white;
+  background-color:;
   margin-top:100px;
+  top:20px;
+  width:800px;
+  height:400px;
+  border-radius: 10px;
 }

@@ -1,38 +1,70 @@
 import React from 'react';
-import {Row,Col, Container} from 'react-bootstrap';
+import {Row,Col, Container, Card} from 'react-bootstrap';
 
 function Events() {
   return (
-    <div>EventPackages
+    <div><h3>Custom Events</h3>
      <Container className="textcontainer">
    <div></div>
-        <Row>
-            <Col xs={6} md={4}>
-            <h3>Small Weddings</h3>
-            12 hour rental <br></br>
-            Grooms dressing room
-            Bridal dressing room
-            Up to 25 guests <br></br>
-            Outdoor ceremony and reception <br></br>
-            Bar/catering upon request <br></br>
-            Valet parking <br></br>
-            </Col>
-            <Col xs={6} md={4}>
-            <h3>Indoor/Outdoor Celebration Picnic </h3>
-            10 hour rental (1 hour setup, 1 hour breakdown included)
-            1 hour setup 
-            1 hour breakdown 
-            
-            </Col>
-            <Col xs={6} md={4}>
-            <h3>Corporate Retreats</h3>
-            10 hour rental 
-            </Col>
-            
-            </Row>
-</Container>
-    
-    
+   <Row>
+    <Col xs={4} md={4}>
+   <Card border="secondary" style={{ width: '18rem' }}>
+        <Card.Header><h3>Intimate Weddings</h3></Card.Header>
+        <Card.Body>
+          <Card.Title>10 hr rental</Card.Title>
+          <Card.Text>
+            Up to 25 Guests
+            <br></br>
+            Groom's/Bride's Dressing Room
+            <br></br>
+            Lawn Ceremony
+            <br></br>
+            Parking Shuttle
+            <br></br>
+        </Card.Text>
+        </Card.Body>
+      </Card>
+      </Col>
+      <Col>
+      <Card border="secondary" style={{ width: '18rem' }}>
+        <Card.Header><h3>Celebration Picnics</h3></Card.Header>
+        <Card.Body>
+          <Card.Title>10 hr rental</Card.Title>
+          <Card.Text>
+            Up to 12 Guests
+            <br></br>
+            Picnic Decorations
+            <br></br>
+            Picnic Setup
+            <br></br>
+            Catering
+            <br></br>
+            Parking Shuttle
+            <br></br>
+          </Card.Text>
+        </Card.Body>
+      </Card>
+      </Col>
+      <Col>
+      <Card border="secondary" style={{ width: '18rem' }}>
+        <Card.Header><h3>Corporte Retreats</h3></Card.Header>
+        <Card.Body>
+          <Card.Title>10 hr rental</Card.Title>
+          <Card.Text>
+            Up to 10 Employees
+            <br></br>
+            Presentation Monitors
+            <br></br>
+            Game Room 
+            <br></br>
+            Parking Shuttle
+            <br></br>
+          </Card.Text>
+        </Card.Body>
+      </Card>
+      </Col>
+    </Row>
+</Container>        
     </div>
   )
 }
