@@ -21,7 +21,7 @@ function App() {
     <Header/>
     <br/>
     <NavBar/> 
-    <BrowserRouter basename='/kgr'>  
+    <BrowserRouter>  
         <Routes>
           <Route exact path='/*' element={<Home />} />
           <Route exact path='/AboutUs/*' element={<AboutUs/>}/>
