@@ -40,15 +40,17 @@
   margin-right: 60px;  
 } 
 
+h5{
+  color: white;
+  
+}
 .home{
   margin-top: 100px;
-  background-color: white;
-  margin-left: 100px;
-  margin-right: 100px;
-  font-size: 22px;
+  margin-left: 70px;
+  margin-right: 70px;
   padding-left: 2em;
   padding-right: 2em;
-  align-items: center;
+  align-items: left;
   border-radius: 10px;
   
 }
@@ -109,7 +111,6 @@
 }
 
 .textcontainer{
-  background-color:;
   margin-top:100px;
   top:20px;
   width:800px;
