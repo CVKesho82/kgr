@@ -2,15 +2,9 @@ import React from 'react';
 import {Navbar,Container, Nav, NavDropdown} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import KESHOGROUP from '../Assets/images/KESHOGROUP.jpg';
-import { Routes, Route, Link } from 'react-router-dom';
-import AboutUs from './AboutUs';
-import Contact from './Contact';
-import Buckhead from './Buckhead';
-import WestEnd from './WestEnd';
 
 function NavBar() {
-  return (
-  
+  return (  
   <Navbar fixed="top" bg="light" variant="white" className="nav">
     <Container className="nav">
      <Navbar.Brand href="Home"> 

@@ -2,7 +2,6 @@ import React from 'react';
 import {Row, Image, Col, Container} from 'react-bootstrap';
 import Exterior from '../Assets/images/Exterior.jpg';
 import kitchen from '../Assets/images/kitchentableangel.jpg';
-import bathroom from '../Assets/images/bathroom.jpg';
 import livingroom2 from '../Assets/images/livingroom2.jpg';
 import guestbathroom from '../Assets/images/guestbathroom.jpg';
 import downstairs from '../Assets/images/downstairs.jpg';
@@ -19,8 +18,7 @@ import dsbathroom from '../Assets/images/dsbathroom.jpg';
 
 function Buckhead() {
   return (
-    <div>Buckhead
-    
+    <div>Buckhead   
    
    <Container className="photocontainer">
    <h3>Hidden Diamond of Buckhead</h3>

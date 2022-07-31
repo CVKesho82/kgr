@@ -1,7 +1,4 @@
 import React from 'react';
-import lroom from '../Assets/images/livingroom.jpg';
-import NavBar from './Navbar';
-import Info from './Info';
 
 function Header() {
   return (
