@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kgr/static/css/main.1892dfa2.css",
-    "main.js": "/kgr/static/js/main.1469cc48.js",
+    "main.css": "/kgr/static/css/main.1a411f59.css",
+    "main.js": "/kgr/static/js/main.cfb87656.js",
     "static/js/787.840a8a92.chunk.js": "/kgr/static/js/787.840a8a92.chunk.js",
     "static/media/outdoor.jpg": "/kgr/static/media/outdoor.8b94e1a2ddadaabc8cfc.jpg",
     "static/media/Exterior.jpg": "/kgr/static/media/Exterior.ec4ee89c9f99fdd707af.jpg",
@@ -12,7 +12,6 @@
     "static/media/blue.jpg": "/kgr/static/media/blue.969097acc0c671c80252.jpg",
     "static/media/kitchentableangel.jpg": "/kgr/static/media/kitchentableangel.4fe89ad9fe8e1538a11d.jpg",
     "static/media/livingroom2.jpg": "/kgr/static/media/livingroom2.39944056d3834c819a29.jpg",
-    "static/media/bathroom.jpg": "/kgr/static/media/bathroom.b7c46f91800de2551125.jpg",
     "static/media/livingroom.jpg": "/kgr/static/media/livingroom.b153f59b5e46067f154c.jpg",
     "static/media/camillaoutdoor.jpg": "/kgr/static/media/camillaoutdoor.794fefe4b40786900a09.jpg",
     "static/media/guestbathroom.jpg": "/kgr/static/media/guestbathroom.54463ee05aec5770099d.jpg",
@@ -29,12 +28,12 @@
     "static/media/camillaliving4.jpg": "/kgr/static/media/camillaliving4.60f89f8093c1906764cc.jpg",
     "static/media/KESHOGROUP.jpg": "/kgr/static/media/KESHOGROUP.408069e36e6c2c3e3382.jpg",
     "index.html": "/kgr/index.html",
-    "main.1892dfa2.css.map": "/kgr/static/css/main.1892dfa2.css.map",
-    "main.1469cc48.js.map": "/kgr/static/js/main.1469cc48.js.map",
+    "main.1a411f59.css.map": "/kgr/static/css/main.1a411f59.css.map",
+    "main.cfb87656.js.map": "/kgr/static/js/main.cfb87656.js.map",
     "787.840a8a92.chunk.js.map": "/kgr/static/js/787.840a8a92.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1892dfa2.css",
-    "static/js/main.1469cc48.js"
+    "static/css/main.1a411f59.css",
+    "static/js/main.cfb87656.js"
   ]
 }
