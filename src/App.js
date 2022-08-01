@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {BrowserRouter, HashRouter as Router, Routes, Route} from 'react-router-dom';
 import './App.css';
 import Header from './Components/Header';
 import AboutUs from '../src/Components/AboutUs';
@@ -13,15 +13,16 @@ import WestEnd from './Components/WestEnd';
 import Events from './Components/Events';
 import Home from './Components/Home';
 
+
 function App() {
   return (
     <div className="App-background" style = {{ backgroundImage: `url(${lroom})`}}>
     <Header/>
     <br/>
-    <BrowserRouter>  
     <NavBar />
-        <Routes>
-          <Route exact path='/*' element={<Home />} />
+    <BrowserRouter>  
+    <Routes> 
+          <Route exact path='/kgr/*' element={<Home />} />
           <Route exact path='/AboutUs/*' element={<AboutUs/>}/>
           <Route exact path='/Buckhead/*' element={<Buckhead/>}/>
           <Route exact path='/WestEnd/*' element={<WestEnd/>}/>
