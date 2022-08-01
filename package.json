@@ -1,6 +1,5 @@
 {
   "name": "kgr",
-  // "homepage": "https://cvkesho82.github.io/kgr/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
