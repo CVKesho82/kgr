@@ -12,7 +12,7 @@ function NavBar() {
       </Navbar.Brand> 
     <Nav className="me-auto">
       <Nav.Link className="navbar-link" href="AboutUs">About Us</Nav.Link>
-      <NavDropdown title="Properties" id="navbarScrollingDropdown">
+      <NavDropdown title="Portfolio" id="navbarScrollingDropdown">
           <NavDropdown.Item href="WestEnd">West End, GA</NavDropdown.Item>
           <NavDropdown.Divider />
           <NavDropdown.Item href="Buckhead">Buckhead, GA</NavDropdown.Item>
