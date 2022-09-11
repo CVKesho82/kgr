@@ -3,7 +3,8 @@ import React from 'react'
 function Reservations() {
   return (
       
-    <div>Reservations</div>
+    <div class="tagline">Relax and We Will Handle the Rest</div>
+    
   )
 }
 
