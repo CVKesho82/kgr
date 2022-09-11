@@ -16,10 +16,6 @@ function WestEnd() {
    <div></div>
         <Row>
             <Col xs={5} md={3}>
-            1460 sqft <br></br>
-            2 bedrooms<br></br>
-            1 bathroom<br></br>
-            Sleeps 6<br></br>
             </Col>
             <Col xs={5} md={3}>
             <Image src={camout}  thumbnail />

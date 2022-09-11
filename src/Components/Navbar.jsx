@@ -16,8 +16,7 @@ function NavBar() {
           <NavDropdown.Item href="Buckhead">Buckhead, GA</NavDropdown.Item>
           <NavDropdown.Divider />
           <NavDropdown.Item href="WestEnd">West End, GA</NavDropdown.Item>
-          <NavDropdown.Divider />
-          
+          <NavDropdown.Divider />          
         </NavDropdown>
       <Nav.Link className="navbar-link" href="Contact">Event Requests</Nav.Link>
       <Nav.Link className="navbar-link" href="AboutUs">About Us</Nav.Link>
