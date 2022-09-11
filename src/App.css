@@ -11,7 +11,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top left;
-  opacity: 0.80;  
+  opacity: 0.80; 
+  background-blend-mode: lighten; 
 }
 .me-auto{
   text-align: left;
@@ -125,4 +126,8 @@ h5{
   background-color: white;
   margin-top:100px;
   top:20px;
-  width:800px;}
+  width:800px;
+  align-self: left;
+  
+  }
+
