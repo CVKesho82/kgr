@@ -58,7 +58,6 @@ h5{
   padding-right: 2em;
   align-items: left;  
 }
-
 .about{
   margin-top: 100px;
   background-color: white;
@@ -70,14 +69,14 @@ h5{
   align-items: center;
   border-radius: 10px;
 }
-.carousel{
+/* .carousel{
   margin-top: 100px;
   background-color: white;
   margin-left: 50px;
   margin-right: 50px;
   font-size: 22px;
   align-items: center;
-}
+} */
 
 .footer1{
   margin-top: 0.25 rem;
@@ -121,3 +120,8 @@ h5{
   height:400px;
   border-radius: 10px;
 }
+
+.tagline{
+  margin-top:100px;
+  top:20px;
+  width:800px;}

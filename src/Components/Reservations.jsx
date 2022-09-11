@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import {Row, Image, Col, Container} from 'react-bootstrap';
 
 function Reservations() {
   return (
       
-    <div class="tagline">Relax and We Will Handle the Rest</div>
+    <div>
+    <Container className="tagline">Relax and We Will Handle the Rest</Container></div>
     
   )
 }
