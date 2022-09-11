@@ -6,11 +6,10 @@ function AboutUs() {
     <div className="about">
     <br></br>
     <div>
-    Kesho Group Rentals (KGR) was established in Atlanta, Georgia in 2012. Since its inception, KGR has been laser focused on its vision of beautifying Atlanta communities while providing quality housing experiences through property restoration, renovation, and rentals. 
-    
-    KGR properties are hidden gems with prime locations in the West-End and Buckhead, giving local and visiting renters quiet, tucked-away communities in close proximity to Atlanta’s most notable attractions including Mercedez Benz stadium, State Farm Arena, Lenox Mall and Phipps Plaza. 
+    A real estate investment company started in 2012, the Kesho Group, focuses on offering quality housing for all.
 
-    Event space rental and planning is also available in select locations. Contact us for more information on event space rental.   <br></br>
+    Chris Kesho, owner of the Kesho Group, is an electrical engineer and has been applying his unique technical perspective to the real estate industry for more than 10 years.
+   <br></br>
     <br></br>     
     </div> 
     </div>
