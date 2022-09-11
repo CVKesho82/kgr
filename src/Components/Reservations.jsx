@@ -1,5 +1,5 @@
 import React from 'react';
-import {Row, Image, Col, Container} from 'bootstrap-react';
+import {Row, Image, Col, Container} from 'react-bootstrap';
 
 function Reservations() {
   return (
