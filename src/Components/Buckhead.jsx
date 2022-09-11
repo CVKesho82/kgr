@@ -25,11 +25,6 @@ function Buckhead() {
    <div></div>
         <Row>
             <Col xs={5} md={3}>
-            3000 sqft <br></br>
-            4 bedrooms<br></br>
-            2.5 bathrooms<br></br>
-            Sleeps 12<br></br>
-            Kid Friendly<br></br>
             </Col>
             <Col xs={5} md={3}>
             <Image src={Exterior}  thumbnail />
