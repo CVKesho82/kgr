@@ -1,21 +1,21 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Card} from 'react-bootstrap';
+import {Card, CardImg, Container, Image} from 'react-bootstrap';
+import Chris from '../Assets/images/chris.jpg';
 
 function AboutUs() {
   return (
-     <Card style={{ width: '18rem' }}>
-        <Card.Img variant="left" src="holder.js/100px180" />
-        <Card.Body>
-          <Card.Title>Kesho Group</Card.Title>
-          <Card.Text>
-          A real estate investment company started in 2012, the Kesho Group, focuses on offering quality housing for all.
-          Chris Kesho, owner of the Kesho Group, is an electrical engineer and has been applying his unique technical perspective to the real estate industry for the last 10 years.
-
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    );
+    <Container className="about">
+        <div className="tile">
+        <Image src = {Chris} width="50%"></Image>
+        </div>
+        <div className="tile">
+          A real estate investment company started in 2012, the Kesho Group, focuses on offering quality housing for all. <br></br> <br></br>
+          Chris Kesho, owner of the Kesho Group, is an electrical engineer and has been applying his unique technical perspective to the real estate industry for more than 10 years.
+        </div>
+  </Container>
+  
+  );
 }
 
 export default AboutUs
