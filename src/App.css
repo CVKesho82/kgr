@@ -67,12 +67,11 @@ h5{
   justify-content: left;
   margin-bottom: 100px;
   
-  
 }
 .tile{
-  width: 40%;
+  width: 43%;
   padding-top: 3%;
-  align-items: left;
+  align-items:flex-end;
   padding-left: 80px;
   padding-bottom: 3%;
 }
