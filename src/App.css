@@ -136,3 +136,34 @@ h5{
   
   }
 
+.bhead{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 120px 120px;
+  gap:10px;
+  background-color: white;
+}
+
+.bhead1{
+  grid-column: 1;
+  grid-row: 1 / 2;
+  border: 1px;
+  border-color: brown;
+  font-size: small;
+}
+
+.aview{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 60px 60px;
+  gap:10px;
+  background-color: white;
+}
+
+.aview1{
+  grid-column: 1;
+  grid-row: 1 / 2;
+  border: 1px;
+  border-color: brown;
+  font-size: small;
+}
