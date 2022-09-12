@@ -12,7 +12,7 @@ function WestEnd() {
   return (
     <div>WestEnd
      <Container className="photocontainer">
-   <h3>Hidden Diamond of Ashview Heights</h3>
+   <h2>Hidden Diamond of Ashview Heights</h2>
    <div></div>
         <Row>
             <Col xs={3} md={4}>

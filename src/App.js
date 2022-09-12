@@ -3,7 +3,7 @@ import {BrowserRouter, HashRouter as Router, Routes, Route} from 'react-router-d
 import './App.css';
 import Header from './Components/Header';
 import AboutUs from '../src/Components/AboutUs';
-import lroom from './Assets/images/livingroom.jpg';
+import lroom from './Assets/images/livingroomww.jpg';
 import NavBar from './Components/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './Components/Footer';

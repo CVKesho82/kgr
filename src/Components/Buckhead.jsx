@@ -21,7 +21,7 @@ function Buckhead() {
     <div>Buckhead   
    
    <Container className="photocontainer">
-   <h3>Hidden Diamond of Buckhead</h3>
+   <h2>Hidden Diamond of Buckhead</h2>
    <div></div>
         <Row>
             <Col xs={5} md={4}>
