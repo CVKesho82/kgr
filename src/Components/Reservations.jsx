@@ -23,12 +23,13 @@ function Reservations() {
     
     <div>
       <Image src={livingroom} width='80%'></Image>
+      
     </div> 
-
+  
     <div className="buttons">
-        <Button className="buttons" href="https://www.airbnb.com/h/HiddenDiamondBuckhead">Airbnb</Button> {" "}
-        <Button className="buttons" href="https://www.vrbo.com/2625615">VRB0</Button>{" "}
-        <Button className="buttons" href="#">Request Event</Button>
+        <Button size="sm" href="https://www.airbnb.com/h/HiddenDiamondBuckhead">Airbnb</Button> {" "}
+        <Button size="sm" href="https://www.vrbo.com/2625615">VRB0</Button>{" "}
+        <Button size="sm"href="#">Request Event</Button>
     </div>
       </Container>
         <br></br>        
@@ -45,8 +46,8 @@ function Reservations() {
     <Image src={camliv2} width='80%'></Image>
         </div>  
     <div className="buttons">
-    <Button href="Airbnb // https://www.airbnb.com/h/HiddenDiamond">Airbnb</Button>{" "}
-        <Button href="#">Request Event</Button><br></br> 
+    <Button size="sm" href="Airbnb // https://www.airbnb.com/h/HiddenDiamond">Airbnb</Button>{" "}
+        <Button size="sm" href="#">Request Event</Button><br></br> 
     </div>
     </Container>    
     </div>
