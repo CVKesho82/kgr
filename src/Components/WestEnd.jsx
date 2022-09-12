@@ -15,29 +15,27 @@ function WestEnd() {
    <h3>Hidden Diamond of Ashview Heights</h3>
    <div></div>
         <Row>
-            <Col xs={5} md={3}>
-            </Col>
-            <Col xs={5} md={3}>
+            <Col xs={3} md={4}>
             <Image src={camout}  thumbnail />
             </Col>
-            <Col xs={5} md={3}>
+            <Col xs={3} md={4}>
             <Image src={camliv3}  thumbnail />
             </Col>
-            <Col xs={5} md={3}>
+            <Col xs={3} md={4}>
             <Image src={camliv} thumbnail />
             </Col>
-            <Col xs={5} md={3}>
+            <Col xs={3} md={4}>
             <Image src={camliv2} thumbnail />
             </Col>
-            <Col xs={5} md={3}>
+            <Col xs={3} md={4}>
             <Image src={camdining} thumbnail />
             </Col>
-            <Col xs={5} md={3}>
+            <Col xs={3} md={4}>
             <Image src={cambed} thumbnail />
             </Col>
-            <Col xs={5} md={3}>
+            {/* <Col xs={3} md={3}>
             <Image src={cambath} thumbnail />
-            </Col>
+            </Col> */}
             
         </Row>
 </Container>    

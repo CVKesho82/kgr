@@ -133,6 +133,7 @@ h5{
   top:20px;
   width:800px;
   align-self: left;
+  border-radius: 5px;
   
   }
 
@@ -142,6 +143,7 @@ h5{
   grid-template-rows: 120px 120px;
   gap:10px;
   background-color: white;
+  border-radius: 5px;
 }
 
 .bhead1{
@@ -155,9 +157,10 @@ h5{
 .aview{
   display:grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 60px 60px;
+  grid-template-rows: 120px 120px;
   gap:10px;
   background-color: white;
+  border-radius: 5px;
 }
 
 .aview1{

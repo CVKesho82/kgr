@@ -1,6 +1,7 @@
 import React from 'react';
 import {Row, Image, Col, Container} from 'react-bootstrap';
-import livingroom from '../Assets/images/livingroom2.jpg'
+import livingroom from '../Assets/images/livingroom2.jpg';
+import camliv2 from '../Assets/images/camillaliving2.jpg';
 
 function Reservations() {
   return (
@@ -16,7 +17,7 @@ function Reservations() {
 
     Book now, you're worth it! 
 </div>
-    <div className="bhead2" Image src={livingroom}></div></Container>
+    <Image src={livingroom} width='50%'></Image></Container>
     <br></br>
     <Container className="aview">
     <div className="aview1">
@@ -27,7 +28,7 @@ function Reservations() {
     This property is close to public transportation, Georgia World Congress Center, Mercedes Benz Stadium, Atlanta University Center, Phillips Arena, Georgia Aquarium, Centennial Park, College Football Hall of Fame, Peter St, westside beltline and so much more.    
     
     </div>
-    <div className="aview2"></div></Container>    
+    <Image src={camliv2} width='50%'></Image></Container>    
     </div>
 
   )
