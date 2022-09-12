@@ -6,8 +6,7 @@ import KESHOGROUP from '../Assets/images/KESHOGROUP.jpg';
 function NavBar() {
   return (  
   <Navbar collapseOnSelect expand="sm" fixed="top" bg="light" variant="white" className="nav">
-    
-     <Navbar.Brand href="Home"> 
+    <Navbar.Brand href="Home"> 
       <img src={KESHOGROUP} width="135" height="120"></img>
       </Navbar.Brand> 
         <Container className="nav">

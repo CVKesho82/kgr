@@ -139,8 +139,8 @@ h5{
 
 .bhead{
   display:grid;
-  grid-template-columns: 1.75fr 1fr .50fr;
-  grid-template-rows: 130px 130px;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 190px 190px;
   gap:10px;
   background-color: white;
   border-radius: 5px;
@@ -151,13 +151,13 @@ h5{
   grid-row: 1 / 2;
   border: 1px;
   border-color: brown;
-  font-size: small;
+  font-size: medium;
 }
 
 .aview{
   display:grid;
-  grid-template-columns: 1.75fr 1fr .50fr;
-  grid-template-rows: 130px 130px;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 190px 190px;
   gap:10px;
   background-color: white;
   border-radius: 5px;
@@ -168,10 +168,10 @@ h5{
   grid-row: 1 / 2;
   border: 1px;
   border-color: brown;
-  font-size: small;
+  font-size: medium;
 }
 
 .buttons{
-  align-items: center;
-  padding-top: 40px;
+  height: min-content;
+  margin-top:60px;
 }
