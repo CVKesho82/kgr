@@ -5,11 +5,14 @@ import KESHOGROUP from '../Assets/images/KESHOGROUP.jpg';
 
 function NavBar() {
   return (  
-  <Navbar fixed="top" bg="light" variant="white" className="nav">
-    <Container className="nav">
+  <Navbar collapseOnSelect expand="sm" fixed="top" bg="light" variant="white" className="nav">
+    
      <Navbar.Brand href="Home"> 
       <img src={KESHOGROUP} width="135" height="120"></img>
       </Navbar.Brand> 
+        <Container className="nav">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
     <Nav className="me-auto">
       <Nav.Link className="navbar-link" href="Reservations">Reservations</Nav.Link>
       <NavDropdown title="Portfolio" id="navbarScrollingDropdown">
@@ -21,9 +24,12 @@ function NavBar() {
       <Nav.Link className="navbar-link" href="Contact">Event Requests</Nav.Link>
       <Nav.Link className="navbar-link" href="AboutUs">About Us</Nav.Link>
     </Nav>
+    </Navbar.Collapse>
     </Container>
   </Navbar>  
   )
 }
 
 export default NavBar
+
+
