@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Card, CardImg, Container, Image} from 'react-bootstrap';
+import {Container, Image} from 'react-bootstrap';
 import Chris from '../Assets/images/chris.jpg';
 
 function AboutUs() {
@@ -13,7 +13,7 @@ function AboutUs() {
           Chris Kesho, owner of the Kesho Group, is an electrical engineer and has been applying his unique technical perspective to the real estate industry for more than 10 years.
         </div>
         <div className="tile">
-        <Image src = {Chris} width="55%"></Image>
+        <Image src = {Chris} width ="65%" align ="right"></Image>
         </div>
   </Container>
   
