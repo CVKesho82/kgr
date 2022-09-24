@@ -23,7 +23,7 @@ function App() {
     <NavBar />
     <BrowserRouter>  
     <Routes> 
-          <Route exact path='/kgr/*' element={<Reservations />} />
+          <Route exact path='/*' element={<Reservations />} />
           <Route exact path='/Reservations/*' element={<Reservations/>}/>
           <Route exact path='/Buckhead/*' element={<Buckhead/>}/>
           <Route exact path='/WestEnd/*' element={<WestEnd/>}/>
