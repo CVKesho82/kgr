@@ -18,19 +18,22 @@ function Reservations() {
 
         <br></br>Enjoy your vacation without having to mask up around other hotel guests, fitting everyone into cramped rooms, paying for overpriced parking, or remembering the “do not disturb” sign on the door every time you need peace and quiet.
 
-        Book now, you're worth it! 
+        Book now, you're worth it!
     </div>
     
     <div>
-      <Image src={livingroom} width='80%'></Image>
+      <Image src={livingroom} width='80%'></Image>   
       
     </div> 
-  
+    
     <div className="buttons">
         <Button size="sm" href="https://www.airbnb.com/h/HiddenDiamondBuckhead">Airbnb</Button> {" "}
         <Button size="sm" href="https://www.vrbo.com/2625615">VRB0</Button>{" "}
         <Button size="sm"href="#">Request Event</Button>
     </div>
+    <br></br>
+  
+    
       </Container>
         <br></br>        
         
