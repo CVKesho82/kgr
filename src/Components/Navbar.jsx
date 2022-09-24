@@ -1,7 +1,8 @@
 import React from 'react';
 import {Navbar,Container, Nav, NavDropdown} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import KESHOGROUP from '../Assets/images/KESHOGROUP.jpg';
+import KESHOGROUP from '../Assets/images/KeshoGroupLogoV2_no_stroke.png';
+
 
 function NavBar() {
   return (  
