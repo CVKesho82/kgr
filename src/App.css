@@ -242,9 +242,12 @@ h5{
 } */
 .about{
   margin-top: 200px;
+  width:max-content;
   background-color: white;
   font-size: 11px;
   border-radius: 11px;
+  padding-left: 0px;
+  padding-right: 0px;
   /* display: flex; 
   flex-wrap: wrap;  */
   /* justify-content: left; */
@@ -253,8 +256,10 @@ h5{
 }
 .tile{
   width: 70%;
-  padding-top: 12%;
-  padding-bottom: 12%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left:35%;
+  padding-right: 5%;
   /* align-items: center; */
 } 
 
@@ -351,8 +356,8 @@ h5{
 
 .buttons{
   height: min-content;
-  margin-top:55px;
-  size:25%;
+  margin-top:75px;
+  size:10% !important;
 }
 
 h2{
