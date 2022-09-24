@@ -22,7 +22,7 @@ function Reservations() {
     </div>
     
     <div>
-      <Image src={livingroom} width='80%'></Image>   
+      <Image src={livingroom} width='93%'></Image>   
       
     </div> 
     
@@ -46,7 +46,7 @@ function Reservations() {
           This property is close to public transportation, Georgia World Congress Center, Mercedes Benz Stadium, Atlanta University Center, Phillips Arena, Georgia Aquarium, Centennial Park, College Football Hall of Fame, Peter St, westside beltline and so much more.  
         </div>
       <div>
-    <Image src={camliv2} width='80%'></Image>
+    <Image src={camliv2} width='93%'></Image>
         </div>  
     <div className="buttons">
     <Button size="sm" href="Airbnb // https://www.airbnb.com/h/HiddenDiamond">Airbnb</Button>{" "}

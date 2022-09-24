@@ -12,9 +12,9 @@ function Contact() {
         <form ref={form} onSubmit={sendEmail}className="--form-control--card --flex-center --dir-column">
         <h4>Please enter your information:</h4>
         <h6>* Fields are required</h6>
-          <input type="text" placeholder="First Name*" required/>
-          <input type="text" placeholder="Last Name*" required/>
-          <input type="email" placeholder="Email Address*" required/>
+          <input type="text" placeholder="First Name*" required/><br></br><br></br>
+          <input type="text" placeholder="Last Name*" required/><br></br><br></br>
+          <input type="email" placeholder="Email Address*" required/><br></br><br></br>
           <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{9]{4}"placeholder="Phone Number*" required/><br></br> 
                                                                       
           <br></br>
@@ -43,14 +43,14 @@ function Contact() {
           <label for="option9">{" "}$10,000+</label><br></br>
                     
           <br></br>          
-          <label for="startdate"><h4>Select event Start Date*:</h4></label>
+          <label for="startdate"><h4>Select event Start Date*:</h4></label><br></br>
           <input type="date" name="startdate" id="startdate" required /><br></br>
-          <label for="enddate"><h4>Select event End Date*:</h4></label>
+          <label for="enddate"><h4>Select event End Date*:</h4></label><br></br>
           <input type="date" name="enddate" id="enddate" required/><br></br>
           <br></br>
           
           <h4>Additional Details:</h4>
-          <textarea name="details" cols="55" rows="5"></textarea>
+          <textarea name="details" cols="45" rows="10"></textarea>
           <br></br>
           <Button variant="primary" type="submit">
         Submit

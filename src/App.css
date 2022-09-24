@@ -110,7 +110,7 @@ h5{
 .formcontainer{
   margin-top: 100px;
   background-color:white;
-  width:800px;
+  width:725px;
   padding-left: 50px;
   border-radius: 10px;
   margin-left: 5px;
@@ -194,7 +194,6 @@ h5{
   font-size: medium;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top left;
 }
 .me-auto{
   text-align: left;
@@ -244,19 +243,19 @@ h5{
 .about{
   margin-top: 200px;
   background-color: white;
-  font-size: 10px;
-  border-radius: 10px;
-  display: flex; 
-  flex-wrap: wrap; 
-  justify-content: left;
+  font-size: 11px;
+  border-radius: 11px;
+  /* display: flex; 
+  flex-wrap: wrap;  */
+  /* justify-content: left; */
   margin-bottom: 200px;
   
 }
 .tile{
-  width: 100%;
+  width: 70%;
   padding-top: 12%;
   padding-bottom: 12%;
-  align-items: center;
+  /* align-items: center; */
 } 
 
 
@@ -282,11 +281,14 @@ h5{
 }
 
 .formcontainer{
-  margin-top: 100px;
+  margin-top: 150px;
   background-color:white;
-  width:700px;
+  width:max-content;
   border-radius: 10px;
-  margin-left: 5px;
+ 
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 150px;
 }
 
 .photocontainer{

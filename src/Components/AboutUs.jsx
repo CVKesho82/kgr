@@ -13,7 +13,7 @@ function AboutUs() {
           Chris Kesho, owner of the Kesho Group, is an electrical engineer and has been applying his unique technical perspective to the real estate industry for more than 10 years.
         </div>
         <div className="tile">
-        <Image src = {Chris} width ="65%" align ="right"></Image>
+        <Image src = {Chris} width ="65%" align ="fluid"></Image>
         </div>
   </Container>
   
