@@ -50,7 +50,7 @@ function Reservations() {
         </div>  
     <div className="buttons">
     <Button size="sm" href="Airbnb // https://www.airbnb.com/h/HiddenDiamond">Airbnb</Button>{" "}
-        <Button size="sm" href="#">Request Event</Button><br></br> 
+        {/* <Button size="sm" href="#">Request Event</Button><br></br>  */}
     </div>
     </Container>    
     </div>
