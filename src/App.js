@@ -10,10 +10,7 @@ import Footer from './Components/Footer';
 import Contact from './Components/Contact';
 import Buckhead from './Components/Buckhead';
 import WestEnd from './Components/WestEnd';
-import Events from './Components/Events';
-import Home from './Components/Home';
 import Reservations from './Components/Reservations';
-
 
 function App() {
   return (
@@ -27,16 +24,13 @@ function App() {
           <Route exact path='/Reservations/*' element={<Reservations/>}/>
           <Route exact path='/Buckhead/*' element={<Buckhead/>}/>
           <Route exact path='/WestEnd/*' element={<WestEnd/>}/>
-          <Route exact path='/Events/*' element={<Events/>}/>
           <Route exact path='/Contact/*' element={<Contact/>}/>
           <Route exact path='/AboutUs/*' element={<AboutUs/>}/>
-          </Routes>
-      
+          </Routes>    
     </BrowserRouter>
     <br/>                
     <Footer/>
     </div>
 );
-  
 }
 export default App

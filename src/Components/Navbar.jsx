@@ -15,7 +15,7 @@ function NavBar() {
           <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
     <Nav className="me-auto">
       <Nav.Link className="navbar-link" href="Reservations">Reservations</Nav.Link>
-      <NavDropdown title="Portfolio" id="navbarScrollingDropdown">
+      <NavDropdown title="Gallery" id="navbarScrollingDropdown">
           <NavDropdown.Item href="Buckhead">Hidden Diamond of Buckhead</NavDropdown.Item>
           <NavDropdown.Divider />
           <NavDropdown.Item href="WestEnd">Hidden Diamond of Ashview Heights</NavDropdown.Item>
