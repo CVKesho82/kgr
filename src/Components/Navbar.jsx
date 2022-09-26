@@ -8,7 +8,7 @@ function NavBar() {
   return (  
   <Navbar collapseOnSelect expand="sm" fixed="top" bg="light" variant="white" className="nav">
     <Navbar.Brand href="Reservations"> 
-      <img src={KESHOGROUP} width="135" height="120"></img>
+      <img src={KESHOGROUP} img id='logo' width="135" height="120"></img>
       </Navbar.Brand> 
         <Container className="nav">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

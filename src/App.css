@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
 .App {
   text-align: center;  
 }
@@ -11,12 +14,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top left;
+  font-family: 'Rajdhani';
 }
 .me-auto{
   text-align: left;
   width: 100%;
   background-color: white;
 }
+/*************************************navbar**********************/
 .nav{
   background-color: white;
 }
@@ -32,37 +37,9 @@
 .navbar-link:hover {
   background-color: rgba(190, 50, 50, 0.726);
 }
-.info{
-  background-color: white;
-  color:black; 
-  margin-left: 60px;
-  margin-right: 60px;  
-} 
-h5{
-  color: white;
-  font-size: 60px !important;
-  text-align: center;
-}
-.about{
-  margin-top: 100px;
-  width:90%;
-  background-color: white;
-  font-size: 22px;
-  border-radius: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: left;
-  margin-bottom: 100px;
-  
-}
-.tile{
-  width: 43%;
-  padding-top: 3%;
-  /* align-items:flex-end; */
-  padding-left: 80px;
-  padding-right: 0px;
-  padding-bottom: 3%;
-}
+
+
+/******************************footer***************************/
 .footer1{
   margin-top: 0.25 rem;
   padding:0.25 rem;
@@ -82,18 +59,13 @@ h5{
   display: "flex";
   justify-content:"space-between";
 }
-.formcontainer{
-  margin-top: 100px;
-  background-color:white;
-  width:725px;
-  padding-left: 50px;
-  border-radius: 10px;
-  margin-left: 5px;
-}
-.photocontainer{
-  background-color: white;
-  margin-top: 100px;
-  border-radius: 10px;
+
+
+/*****************************reservations***************************/
+h5{
+  color: white;
+  font-size: 60px !important;
+  text-align: center;
 }
 .textcontainer{
   margin-top:100px;
@@ -110,6 +82,7 @@ h5{
   align-self: left;
   border-radius: 5px;
 }
+
 .bhead{
   display:grid;
   grid-template-columns: 2fr 1.5fr;
@@ -122,7 +95,6 @@ h5{
   grid-column: 1;
   grid-row: 1 / 2;
   border: 1px;
-  border-color: brown;
   font-size: medium;
 }
 .aview{
@@ -132,13 +104,14 @@ h5{
   gap:5px;
   background-color: white;
   border-radius: 5px;
+  
 }
 .aview1{
   grid-column: 1;
   grid-row: 1 / 2;
   border: 1px;
-  border-color: brown;
   font-size: medium; 
+  
 }
 .buttons{
   height: min-content;
@@ -146,6 +119,72 @@ h5{
   align-items: center !important;
   padding-bottom: 10px;
 }
+/**************************gallery********************************/
+
+.photocontainer{
+  background-color: white;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+/**************************contact us ********************************/
+.formcontainer{
+  margin-top: 100px;
+  background-color:white;
+  width:725px;
+  padding-left: 50px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+
+/*****************************about us***************************/
+.about{
+  /* margin-top: 100px;
+  width:90%;
+  background-color: white;
+  font-size: 22px;
+  border-radius: 10px; */
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: left; */
+  /* margin-top:100px;
+  margin-bottom: 100px;
+  padding-left: 0px;
+  padding-right: 0px;
+  display:grid;
+  grid-template-columns: 1.5fr ;
+  /* grid-template-rows: 220px 220px; */
+  /* gap: 5px;
+  background-color: white;
+  border-radius: 5px; */ 
+  margin-top:100px;
+  display:grid;
+  grid-template-columns: 2.65fr 0.75fr;
+  grid-template-rows: 168px 168px;
+  gap: 5px;
+  background-color: white;
+  border-radius: 5px;
+  
+}
+.tile{
+  /* width: 43%;
+  padding-top: 3%;
+  /* align-items:flex-end; */
+  /* padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 3%;
+  align-items: center; */
+  /* text-align: justify;
+  grid-column: 1;
+  grid-row: 1 / 2;
+  border: 1px; */
+  grid-column: 1;
+  grid-row: 1 / 2;
+  border: 1px;
+  
+  
+}
+/*******************************************************************/
 /*****************************Media Query***************************/
 
 @media only screen and (max-width: 768px) {
@@ -168,6 +207,7 @@ h5{
   width: 100%;
   background-color: white;
 }
+                /**********navbar********/
 .nav{
   background-color: white;
 }
@@ -183,34 +223,11 @@ h5{
 .navbar-link:hover {
   background-color: rgba(190, 50, 50, 0.726);
 }
-.info{
-  background-color: white;
-  color:black; 
-  margin-left: 30px;
-  margin-right: 30px;  
-} 
-h5{
-  color: white;
-  font-size: 30px !important;
-  text-align: center;
+#logo{
+  size:10px;
 }
-.about{
-  margin-top: 200px;
-  width:max-content;
-  background-color: white;
-  font-size: 11px;
-  border-radius: 11px;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin-bottom: 200px;  
-}
-.tile{
-  width: 70%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left:35%;
-  padding-right: 5%;
-} 
+/**********footer********/
+
 .footer1{
   background-color:white ;
   width: 100%;
@@ -226,23 +243,9 @@ h5{
 .footer2{
   display: "flex";
   justify-content:"space-between";
-  height: fit-content;
-}
-.formcontainer{
-  margin-top: 150px;
-  background-color:white;
-  width:max-content;
-  border-radius: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-bottom: 150px;
-}
-.photocontainer{
-  background-color: white;
-  width: fit-content;
-  margin-top: 100px;
-  border-radius: 10px;
-}
+}               
+                
+/**********reservations********/
 .textcontainer{
   margin-top:100px;
   top:20px;
@@ -294,7 +297,69 @@ h5{
   gap:5px;
   justify-content: space-between;
   padding-bottom: 60px;  
+}            
+                
+/**********gallery********/
+.photocontainer{
+  background-color: white;
+  width: fit-content;
+  margin-top: 100px;
+  border-radius: 10px;
 }
+                
+                
+                
+                
+/**********contact us********/
+h5{
+color: white;
+font-size: 30px !important;
+text-align: center;
+}
+.formcontainer{
+  margin-top: 150px;
+  background-color:white;
+  width:max-content;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 150px;
+} 
+/**********about us********/
+.about{
+  /* margin-top: 200px;
+  width:max-content;
+  background-color: white;
+  font-size: 11px;
+  border-radius: 11px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-bottom: 200px;   */
+  margin-top:200px;
+  width:fit-content;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap:wrap;
+  gap:10px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 0px;
+  padding-right: 0px;
+}
+.about > .tile{
+  /* width: 70%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left:35%;
+  padding-right: 5%; */
+  flex: 1 1 1 170px;
+  font-size: 14px;
+} 
+
+
+
+
 h2{
   font-size:10%;
 }
