@@ -8,14 +8,14 @@ function NavBar() {
   return (  
   <Navbar collapseOnSelect expand="sm" fixed="top" bg="light" variant="white" className="nav">
     <Navbar.Brand href="Reservations"> 
-      <img src={KESHOGROUP} img id='logo' width="135" height="120"></img>
+      <img src={KESHOGROUP} img id='logo' width="115" height="100"></img>
       </Navbar.Brand> 
         <Container className="nav">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
     <Nav className="me-auto">
       <Nav.Link className="navbar-link" href="Reservations">Reservations</Nav.Link>
-      <NavDropdown title="Gallery" id="navbarScrollingDropdown">
+      <NavDropdown className="dropdown" title="Gallery" id="navbarScrollingDropdown">
           <NavDropdown.Item href="Buckhead">Hidden Diamond of Buckhead</NavDropdown.Item>
           <NavDropdown.Divider />
           <NavDropdown.Item href="WestEnd">Hidden Diamond of Ashview Heights</NavDropdown.Item>

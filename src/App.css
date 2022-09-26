@@ -34,8 +34,17 @@
   text-align: center; 
   color:black;
 }
+.dropdown{
+ width:22%;
+ float:left;
+ text-align: center;
+}
 .navbar-link:hover {
-  background-color: rgba(190, 50, 50, 0.726);
+  background-color:#a1211f;
+  
+}
+.dropdown:hover{
+  background-color:#a1211f;
 }
 
 
@@ -134,6 +143,8 @@ h5{
   padding-left: 50px;
   border-radius: 10px;
   margin-left: 5px;
+  padding-bottom: 10px;
+  margin-bottom: 100px;
 }
 
 
@@ -157,6 +168,7 @@ h5{
   /* gap: 5px;
   background-color: white;
   border-radius: 5px; */ 
+  padding-top:12px;
   margin-top:100px;
   display:grid;
   grid-template-columns: 2.65fr 0.75fr;
@@ -221,7 +233,10 @@ h5{
   color:black;
 }
 .navbar-link:hover {
-  background-color: rgba(190, 50, 50, 0.726);
+  background-color:#a1211f;
+}
+.dropdown:hover{
+  background-color:#a1211f;
 }
 #logo{
   size:10px;
@@ -305,9 +320,8 @@ h5{
   width: fit-content;
   margin-top: 100px;
   border-radius: 10px;
-}
-                
-                
+}          
+             
                 
                 
 /**********contact us********/
@@ -317,12 +331,12 @@ font-size: 30px !important;
 text-align: center;
 }
 .formcontainer{
+  width:83%;
   margin-top: 150px;
   background-color:white;
-  width:max-content;
-  border-radius: 10px;
+  margin-left: 15px;
   padding-left: 5px;
-  padding-right: 5px;
+  border-radius: 10px;
   margin-bottom: 150px;
 } 
 /**********about us********/

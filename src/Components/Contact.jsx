@@ -32,15 +32,8 @@ function Contact() {
           <label for="option5">{" "}General Inquiry</label><br></br>
           
           <br></br>
-          <h4>Please select budget range*:</h4>
-          <input type="checkbox" id="option6" name="option6" value="$3,000-$5,000"></input>
-          <label for="option6">{" "}$3,000-$5,000</label><br></br>
-          <input type="checkbox" id="option7" name="option7" value="$5,000-$7,000"></input>
-          <label for="option7">{" "}$5,000-$7,000</label><br></br>
-          <input type="checkbox" id="option8" name="option8" value="CorporateOffsite"></input>
-          <label for="option8">{" "}$7,000-$10,000</label><br></br>
-          <input type="checkbox" id="option9" name="option9" value="MidtermRental"></input>
-          <label for="option9">{" "}$10,000+</label><br></br>
+          <h4>If inquring about an event, please share your budget:</h4>
+          <input type="number" placeholder="ex: $3000.00"></input>
                     
           <br></br>          
           <label for="startdate"><h4>Select event Start Date*:</h4></label><br></br>
@@ -50,9 +43,9 @@ function Contact() {
           <br></br>
           
           <h4>Additional Details:</h4>
-          <textarea name="details" cols="45" rows="10"></textarea>
+          <textarea name="details" cols="30" rows="8"></textarea>
           <br></br>
-          <Button variant="primary" type="submit">
+          <Button variant="outline-danger" type="submit">
         Submit
           </Button>
           
