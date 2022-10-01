@@ -8,12 +8,7 @@ import banner from '../Assets/images/Banner_40_percent_widthemail.jpg';
 
 
 function Reservations() {
-  const navigate = useNavigate();
-  
-  const navigatetoEventRequest = () =>{
-    navigate('/EventRequest');
-  
-  };
+
   return (      
     <div>
       <Container className="tagline" style = {{ backgroundImage: `url(${banner})`, size:'cover'}}><h5>Relax and We Will Handle the Rest</h5>
@@ -33,7 +28,7 @@ function Reservations() {
     <div className="buttons" align="center">
         <Button variant="outline-danger" size="sm" href="https://www.airbnb.com/h/HiddenDiamondBuckhead">Airbnb</Button> <br></br>
         <Button variant="outline-danger" size="sm" href="https://www.vrbo.com/2625615">VRB0</Button><br></br>
-        <Button variant="outline-danger" size="sm"onClick={navigatetoEventRequest}>Request Weddings & Events</Button><br></br>
+        <Button variant="outline-danger" size="sm" href="">Request Weddings & Events</Button><br></br>
     </div> 
       
       </Container>  
