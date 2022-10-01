@@ -1,13 +1,22 @@
 import React from 'react';
+import {useNavigate} from 'react-router-dom';
 import {Image, Button, Container} from 'react-bootstrap';
 import livingroom from '../Assets/images/livingroom2.jpg';
 import camliv2 from '../Assets/images/camillaliving2.jpg';
-import banner from '../Assets/images/Banner_40_percent_width.jpg';
+import banner from '../Assets/images/Banner_40_percent_widthemail.jpg';
+
+
 
 function Reservations() {
+  const navigate = useNavigate();
+  
+  const navigatetoEventRequest = () =>{
+    navigate('/EventRequest');
+  
+  };
   return (      
     <div>
-      <Container className="tagline" style = {{ backgroundImage: `url(${banner})`, size:'25%',width:'100%', height:'100px'}}><h5>Relax and We Will Handle the Rest</h5>
+      <Container className="tagline" style = {{ backgroundImage: `url(${banner})`, size:'cover'}}><h5>Relax and We Will Handle the Rest</h5>
       
       </Container> 
         <br></br>
@@ -24,7 +33,7 @@ function Reservations() {
     <div className="buttons" align="center">
         <Button variant="outline-danger" size="sm" href="https://www.airbnb.com/h/HiddenDiamondBuckhead">Airbnb</Button> <br></br>
         <Button variant="outline-danger" size="sm" href="https://www.vrbo.com/2625615">VRB0</Button><br></br>
-        <Button variant="outline-danger" size="sm"href="src\Components\Contact.jsx">Request Weddings & Events</Button><br></br>
+        <Button variant="outline-danger" size="sm"onClick={navigatetoEventRequest}>Request Weddings & Events</Button><br></br>
     </div> 
       
       </Container>  
