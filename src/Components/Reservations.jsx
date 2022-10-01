@@ -28,7 +28,7 @@ function Reservations() {
     <div className="buttons" align="center">
         <Button variant="outline-danger" size="sm" href="https://www.airbnb.com/h/HiddenDiamondBuckhead">Airbnb</Button> <br></br>
         <Button variant="outline-danger" size="sm" href="https://www.vrbo.com/2625615">VRB0</Button><br></br>
-        <Button variant="outline-danger" size="sm" href="">Request Weddings & Events</Button><br></br>
+        <Button variant="outline-danger" size="sm" href="http://www.keshogrouprentals.com/EventRequest">Request Weddings & Events</Button><br></br>
     </div> 
       
       </Container>  
