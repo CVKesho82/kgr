@@ -7,9 +7,9 @@ import lroom from './Assets/images/livingroomww.jpg';
 import NavBar from './Components/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './Components/Footer';
-import Contact from './Components/Contact';
-import Buckhead from './Components/Buckhead';
-import WestEnd from './Components/WestEnd';
+import EventRequest from './Components/EventRequest';
+import HiddenDiamondBuckhead from './Components/HiddenDiamondBuckhead';
+import HiddenDiamondAshviewHeights from './Components/HiddenDiamondAshviewHeights';
 import Reservations from './Components/Reservations';
 
 function App() {
@@ -22,9 +22,9 @@ function App() {
     <Routes> 
           <Route exact path='/*' element={<Reservations />} />
           <Route exact path='/Reservations/*' element={<Reservations/>}/>
-          <Route exact path='/Buckhead/*' element={<Buckhead/>}/>
-          <Route exact path='/WestEnd/*' element={<WestEnd/>}/>
-          <Route exact path='/Contact/*' element={<Contact/>}/>
+          <Route exact path='/HiddenDiamondBuckhead/*' element={<HiddenDiamondBuckhead/>}/>
+          <Route exact path='/HiddenDiamondAshviewHeights/*' element={<HiddenDiamondAshviewHeights/>}/>
+          <Route exact path='/EventRequest/*' element={<EventRequest/>}/>
           <Route exact path='/AboutUs/*' element={<AboutUs/>}/>
           </Routes>    
     </BrowserRouter>

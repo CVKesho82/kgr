@@ -16,9 +16,9 @@ function NavBar() {
     <Nav className="me-auto">
       <Nav.Link className="navbar-link" href="Reservations">Reservations</Nav.Link>
       <NavDropdown className="dropdown" title="Gallery" id="navbarScrollingDropdown">
-          <NavDropdown.Item href="Buckhead">Hidden Diamond of Buckhead</NavDropdown.Item>
+          <NavDropdown.Item href="HiddenDiamondBuckhead">Hidden Diamond of Buckhead</NavDropdown.Item>
           <NavDropdown.Divider />
-          <NavDropdown.Item href="WestEnd">Hidden Diamond of Ashview Heights</NavDropdown.Item>
+          <NavDropdown.Item href="HiddenDiamondAshviewHeights">Hidden Diamond of Ashview Heights</NavDropdown.Item>
           <NavDropdown.Divider />          
         </NavDropdown>
       <Nav.Link className="navbar-link" href="Contact">Event Requests</Nav.Link>
