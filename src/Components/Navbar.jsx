@@ -21,7 +21,7 @@ function NavBar() {
           <NavDropdown.Item href="HiddenDiamondAshviewHeights">Hidden Diamond of Ashview Heights</NavDropdown.Item>
           <NavDropdown.Divider />          
         </NavDropdown>
-      <Nav.Link className="navbar-link" href="Contact">Event Requests</Nav.Link>
+      <Nav.Link className="navbar-link" href="EventRequest">Event Requests</Nav.Link>
       <Nav.Link className="navbar-link" href="AboutUs">About Us</Nav.Link>
     </Nav>
     </Navbar.Collapse>
