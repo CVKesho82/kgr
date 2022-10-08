@@ -17,13 +17,10 @@ import oseating from '../Assets/images/oseating.jpg';
 import dsbathroom from '../Assets/images/dsbathroom.jpg';
 
 function Buckhead() {
-  return (
-    <div>Buckhead   
-   
-   <Container className="photocontainer">
+  return (   
+  <Container className="photocontainer">
    <h2>Hidden Diamond of Buckhead</h2>
-   <div></div>
-        <Row>
+        {/* <Row>
             <Col xs={5} md={4}>
             <Image src={Exterior}  thumbnail />
             </Col>
@@ -63,16 +60,45 @@ function Buckhead() {
             <Col xs={5} md={4}>
             <Image src={bedroom2downstairs} thumbnail />
             </Col>
-            <Col xs={6} md={4}>
+            <Col xs={5} md={4}>
             <Image src={oseating} thumbnail />
             </Col>
             <Col xs={5} md={4}>
             <Image src={outdoor} thumbnail />
             </Col>
-        </Row>
-</Container>
-    
-</div>
+        </Row> */}
+  <div className="flex-container">
+      <img src={Exterior} className ="imgsize"></img>
+  <div className='flex-item'></div>
+      <img src={livingroom2} className ="imgsize"></img>
+  <div className='flex-item'></div>
+      <img src={kitchen} className ="imgsize"></img>
+  <div className='flex-item'></div>
+      <img src={kitchen2} className ="imgsize"></img>
+  <div className='flex-item'></div>
+      <img src={knook} className ="imgsize"></img>
+  <div className='flex-item'></div>
+      <img src={guestbathroom} className ="imgsize"></img>
+  <div className='flex-item'></div>
+      <img src={purple} className ="imgsize"></img>
+  <div className='flex-item'></div>
+      <img src={blue} className ="imgsize"></img>
+  <div className='flex-item'></div>
+      <img src={mbath} className ="imgsize"></img>
+  <div className='flex-item'></div>
+      <img src={downstairs} className ="imgsize"></img>
+  <div className='flex-item'></div>
+      <img src={downstairsbunk} className ="imgsize"></img>
+  <div className='flex-item'></div>
+      <img src={dsbathroom} className ="imgsize"></img>
+  <div className='flex-item'></div>
+      <img src={bedroom2downstairs} className ="imgsize"></img>
+  <div className='flex-item'></div>
+      <img src={oseating} className ="imgsize"></img>
+  <div className='flex-item'></div>
+      <img src={outdoor} className ="imgsize"></img>
+      </div>
+      </Container>
   )
 }
 

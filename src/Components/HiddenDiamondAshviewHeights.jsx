@@ -10,11 +10,10 @@ import camliv2 from '../Assets/images/camillaliving2.jpg';
 
 function WestEnd() {
   return (
-    <div>WestEnd
+    <div>WestEnd    
      <Container className="photocontainer">
    <h2>Hidden Diamond of Ashview Heights</h2>
-   <div></div>
-        <Row>
+        {/* <Row>
             <Col xs={3} md={4}>
             <Image src={camout}  thumbnail />
             </Col>
@@ -33,11 +32,27 @@ function WestEnd() {
             <Col xs={3} md={4}>
             <Image src={cambed} thumbnail />
             </Col>
-            {/* <Col xs={3} md={3}>
+            <Col xs={3} md={3}>
             <Image src={cambath} thumbnail />
-            </Col> */}
+            </Col>
             
-        </Row>
+        </Row> */}
+        
+    <div className="flex-container">
+      <img src={camout} className ="imgsize"></img>
+  <div className='flex-item'></div>
+      <img src={camliv3} className ="imgsize"></img>
+  <div className='flex-item'></div>
+      <img src={camliv} className ="imgsize"></img>
+  <div className='flex-item'></div>
+      <img src={camliv2} className ="imgsize"></img>
+  <div className='flex-item'></div>
+      <img src={camdining} className ="imgsize"></img>
+  <div className='flex-item'></div>
+      <img src={cambed} className ="imgsize"></img>
+  <div className='flex-item'></div>
+      <img src={cambath} className ="imgsize"></img>    
+</div>
 </Container>    
     </div>
   )

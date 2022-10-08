@@ -2,19 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
 
 .App {
-  text-align: center;  
+  text-align: center; 
+  font-family: 'Rajdhani', sans-serif;
 }
 .App-background{
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: top;
   font-size: calc(10px + 2vmin);
-  background-size: cover;
+  background-size:cover;
   background-repeat: no-repeat;
-  background-position: top left;
-  font-family: 'Rajdhani';
+  background-position:center;
+  font-family: 'Rajdhani', sans-serif;;
 }
 .me-auto{
   text-align: left;
@@ -73,8 +73,9 @@
 /*****************************reservations***************************/
 h5{
   color: white;
-  font-size: 60px !important;
+  font-size: 80px !important;
   text-align: center;
+  justify-content: center !important;
 }
 .textcontainer{
   margin-top:100px;
@@ -133,8 +134,27 @@ h5{
 .photocontainer{
   background-color: white;
   margin-top: 100px;
-  border-radius: 10px;
-}
+  text-align: center;
+}  
+.flex-container {
+  margin-top:100px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  background-color: white;
+  margin-left:40px;
+  margin-right: 40px;
+  padding: 10px;
+  column-gap: 2px;
+  row-gap: 4px;
+  
+  }
+
+.imgsize {
+  width: 33%; 
+} 
+
 /**************************contact us ********************************/
 .formcontainer{
   margin-top: 100px;
@@ -315,12 +335,30 @@ h5{
 }            
                 
 /**********gallery********/
-.photocontainer{
+ .photocontainer{
   background-color: white;
-  width: fit-content;
   margin-top: 100px;
-  border-radius: 10px;
-}          
+  text-align: center;
+}         
+
+.flex-container {
+  margin-top:100px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  background-color: white;
+  margin-left:15px;
+  margin-right: 15px;
+  padding: 10px;
+  column-gap: 2px;
+  row-gap: 4px;
+  
+  }
+
+.imgsize {
+  width: 100%; 
+} 
              
                 
                 
@@ -370,12 +408,10 @@ text-align: center;
   flex: 1 1 1 170px;
   font-size: 14px;
 } 
-
-
-
-
 h2{
   font-size:10%;
+  color:black;
+  margin-top: 140px;
 }
 
 }
