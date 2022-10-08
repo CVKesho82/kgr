@@ -14,7 +14,6 @@ import Reservations from './Components/Reservations';
 
 function App() {
   return (
-    /*<div className="App-background" style = {{ backgroundImage: `url(${lroom})`, opacity:.95}}>*/
     <div>
     <Header/>
     <br/>
