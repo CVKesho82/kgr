@@ -12,31 +12,7 @@ function WestEnd() {
   return (
     <div>WestEnd    
      <Container className="photocontainer">
-   <h2>Hidden Diamond of Ashview Heights</h2>
-        {/* <Row>
-            <Col xs={3} md={4}>
-            <Image src={camout}  thumbnail />
-            </Col>
-            <Col xs={3} md={4}>
-            <Image src={camliv3}  thumbnail />
-            </Col>
-            <Col xs={3} md={4}>
-            <Image src={camliv} thumbnail />
-            </Col>
-            <Col xs={3} md={4}>
-            <Image src={camliv2} thumbnail />
-            </Col>
-            <Col xs={3} md={4}>
-            <Image src={camdining} thumbnail />
-            </Col>
-            <Col xs={3} md={4}>
-            <Image src={cambed} thumbnail />
-            </Col>
-            <Col xs={3} md={3}>
-            <Image src={cambath} thumbnail />
-            </Col>
-            
-        </Row> */}
+   <h2>Hidden Diamond of Ashview Heights</h2>    
         
     <div className="flex-container">
       <img src={camout} className ="imgsize"></img>

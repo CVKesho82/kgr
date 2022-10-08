@@ -20,53 +20,7 @@ function Buckhead() {
   return (   
   <Container className="photocontainer">
    <h2>Hidden Diamond of Buckhead</h2>
-        {/* <Row>
-            <Col xs={5} md={4}>
-            <Image src={Exterior}  thumbnail />
-            </Col>
-            <Col xs={5} md={4}>
-            <Image src={livingroom2} thumbnail />
-            </Col>
-            <Col xs={5} md={4}>
-            <Image src={kitchen} thumbnail />
-            </Col>
-            <Col xs={5} md={4}>
-            <Image src={kitchen2}  thumbnail />
-            </Col>
-            <Col xs={5} md={4}>
-            <Image src={knook} thumbnail />
-            </Col>
-            <Col xs={5} md={4}>
-            <Image src={guestbathroom} thumbnail />
-            </Col>
-            <Col xs={5} md={4}>
-            <Image src={purple}  thumbnail />
-            </Col>
-            <Col xs={5} md={4}>
-            <Image src={blue} thumbnail />
-            </Col>
-            <Col xs={5} md={4}>
-            <Image src={mbath} thumbnail />
-            </Col>
-            <Col xs={5} md={4}>
-            <Image src={downstairs}  thumbnail />
-            </Col>
-            <Col xs={5} md={4}>
-            <Image src={downstairsbunk} thumbnail />
-            </Col>
-            <Col xs={5} md={4}>
-            <Image src={dsbathroom} thumbnail />
-            </Col>
-            <Col xs={5} md={4}>
-            <Image src={bedroom2downstairs} thumbnail />
-            </Col>
-            <Col xs={5} md={4}>
-            <Image src={oseating} thumbnail />
-            </Col>
-            <Col xs={5} md={4}>
-            <Image src={outdoor} thumbnail />
-            </Col>
-        </Row> */}
+        
   <div className="flex-container">
       <img src={Exterior} className ="imgsize"></img>
   <div className='flex-item'></div>
