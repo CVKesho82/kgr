@@ -42,8 +42,11 @@ function Reservations() {
         <div className="aview1">
           <h4>Hidden Diamond of Ashview Heights</h4>
           <br></br>
-          Less than a mile away from Mercedes Benz Stadium! That is walking distance. Don't get stuck in traffic, be close to all the hottest places in town.
-          This property is close to public transportation, Georgia World Congress Center, Mercedes Benz Stadium, Atlanta University Center, Phillips Arena, Georgia Aquarium, Centennial Park, College Football Hall of Fame, Peter St, westside beltline and so much more.  
+          Don't get stuck in traffic, be close to all the hottest places in town. Walk to Clark Atlanta University, Morehouse College, Spelman College, and the Westside beltline. Less than two miles from Georgia World Congress Center, Mercedes Benz Stadium, and State Farm Arena. Clean, safe, and quiet city experience at an affordable price.
+          <br></br><br></br>
+          2 bedrooms | 1 bath | 1,000 sqft 
+
+  
         </div>
       <div>
     <Image src={camliv2} width='93%'></Image>
