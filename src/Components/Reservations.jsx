@@ -31,7 +31,7 @@ function Reservations() {
         </div>
     </div> 
     <div>
-      <Image src={livingroom} width='93%'></Image>   
+      <Image src={livingroom} width='93%' border-radius="10px"></Image>   
     </div>     
       
       </Container>  
