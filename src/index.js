@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserHistory } from 'history';
 const customHistory = createBrowserHistory();
 const tagManagerArgs = {
-    gtmID:'GTM-Z8DFQ008SZ'
+    gtmID:'G-Z8DFQ008SZ'
 }
 
 TagManager.initialize(tagManagerArgs)
