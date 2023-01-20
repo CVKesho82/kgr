@@ -259,11 +259,12 @@ h5{
 .tagline{
   background-color: white;
   margin-top:150px;
-  top:20px;
+  top:100px;
   width:300px;
-  background-image: cover;
-  /* align-self: left; */
+  height: 100vh;
+  align-self: left;
   border-radius: 5px;
+  
 }
 .bhead{
   width:fit-content;

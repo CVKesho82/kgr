@@ -11,7 +11,7 @@ function Reservations() {
 
   return (
     <div>
-      <Container className="tagline" style = {{ backgroundImage: `url(${banner})`, height:'40vh'}}><br></br><br></br><br></br><br></br>
+      <Container className="tagline" style = {{ backgroundImage: `url(${banner})`/*,backgroundSize: '100%'*/, backgroundPositionX: 'center', backgroundPositionY: '65%', backgroundRepeat: 'no-repeat',height:'40vh'}}><br></br><br></br><br></br><br></br>
         <h5>Relax and We Will Handle the Rest</h5>      
       </Container>
        
