@@ -261,7 +261,8 @@ h5{
   margin-top:150px;
   top:20px;
   width:300px;
-  align-self: left;
+  background-image: cover;
+  /* align-self: left; */
   border-radius: 5px;
 }
 .bhead{

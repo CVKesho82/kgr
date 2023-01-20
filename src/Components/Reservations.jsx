@@ -3,7 +3,7 @@ import {useNavigate} from 'react-router-dom';
 import {Image, Button, Container, ButtonGroup} from 'react-bootstrap';
 import livingroom from '../Assets/images/livingroom2.jpg';
 import camliv2 from '../Assets/images/camillaliving2.jpg';
-import banner from '../Assets/images/Banner_100_percent_width.png';
+import banner from '../Assets/images/Banner_25_percent_width.png';
 
 
 
@@ -11,7 +11,7 @@ function Reservations() {
 
   return (
     <div>
-      <Container className="tagline" style = {{ backgroundImage: `url(${banner})`, height:'38vh'}}><br></br><br></br><br></br><br></br>
+      <Container className="tagline" style = {{ backgroundImage: `url(${banner})`, height:'40vh'}}><br></br><br></br><br></br><br></br>
         <h5>Relax and We Will Handle the Rest</h5>      
       </Container>
        
