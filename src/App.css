@@ -95,7 +95,7 @@ h5{
 
 .bhead{
   display:grid;
-  grid-template-columns: 2fr 1.5fr;
+  grid-template-columns: 2fr 1.45fr;
   grid-template-rows: 170px 170px;
   gap: 5px;
   background-color: white;
@@ -110,7 +110,7 @@ h5{
 }
 .aview{
   display:grid;
-  grid-template-columns: 2fr 1.5fr;
+  grid-template-columns: 2fr 1.45fr;
   grid-template-rows: 170px 170px;
   gap:5px;
   background-color: white;
@@ -126,11 +126,11 @@ h5{
   
 }
 .buttons{
-  height: min-content;
-  margin-top:30px;
+  margin-top:50px;
+  margin-bottom:10px;
   align-items: center !important;
   padding-bottom: 10px;
-}
+  }
 /**************************gallery********************************/
 
 .photocontainer{

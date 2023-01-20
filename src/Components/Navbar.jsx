@@ -15,11 +15,11 @@ function NavBar() {
           <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
     <Nav className="me-auto">
       <Nav.Link className="navbar-link" href="Reservations">Reservations</Nav.Link>
-      <NavDropdown className="dropdown" title="Gallery" id="navbarScrollingDropdown">
-          <NavDropdown.Item href="HiddenDiamondBuckhead">Hidden Diamond of Buckhead</NavDropdown.Item>
-          <NavDropdown.Divider />
+      <NavDropdown autosize = "true" className="dropdown" title="Gallery" id="navbarScrollingDropdown">
+          <NavDropdown.Item autosize = "true" href="HiddenDiamondBuckhead">Hidden Diamond of Buckhead</NavDropdown.Item>
+          {/* <NavDropdown.Divider /> */}
           <NavDropdown.Item href="HiddenDiamondAshviewHeights">Hidden Diamond of Ashview Heights</NavDropdown.Item>
-          <NavDropdown.Divider />          
+          {/* <NavDropdown.Divider />             */}
         </NavDropdown>
       <Nav.Link className="navbar-link" href="EventRequest">Event Requests</Nav.Link>
       <Nav.Link className="navbar-link" href="AboutUs">About Us</Nav.Link>
