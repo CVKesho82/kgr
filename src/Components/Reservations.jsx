@@ -4,6 +4,8 @@ import {Image, Button, Container, ButtonGroup} from 'react-bootstrap';
 import livingroom from '../Assets/images/livingroom2.jpg';
 import camliv2 from '../Assets/images/camillaliving2.jpg';
 import banner from '../Assets/images/Banner_25_percent_width.png';
+import HiddenDiamondBuckhead from '../Components/HiddenDiamondBuckhead';
+import HiddenDiamondAshviewHeights from '../Components/HiddenDiamondAshviewHeights';
 
 
 
@@ -49,11 +51,13 @@ function Reservations() {
           2 bedrooms | 1 bath | 1,000 sqft   
         </div>
         <div>
-          <Image src={camliv2} width='93%'></Image>
+          <Image src={camliv2} width='93%'> </Image>
         </div>  
         
         <div className="buttons" align="center">
           <Button variant="outline-danger" size="sm"  href="Airbnb // https://www.airbnb.com/h/HiddenDiamond">Airbnb</Button>
+          <Button variant="outline-danger" size="sm"  href="Honeybook // https://www.honeybook.com/widget/kesho_group_llc_249517/cf_id/63f7a7550d45c505d338a588
+">Book Now</Button>
           </div>
         </Container>    
     </div>
