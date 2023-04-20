@@ -55,7 +55,7 @@ function Reservations() {
         </div>  
         
         <div className="buttons" align="center">
-          <Button variant="outline-danger" size="sm"  href="Airbnb // https://www.airbnb.com/h/HiddenDiamond">Airbnb</Button>
+          <Button variant="outline-danger" size="sm"  href="Airbnb // https://www.airbnb.com/h/HiddenDiamond">Airbnb</Button><br></br><br></br>
           <Button variant="outline-danger" size="sm"  href="Honeybook // https://www.honeybook.com/widget/kesho_group_llc_249517/cf_id/63f7a7550d45c505d338a588
 ">Book Now</Button>
           </div>
