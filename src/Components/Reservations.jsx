@@ -29,7 +29,7 @@ function Reservations() {
         </div> 
                 
         <div>
-          <Image src={livingroom} width='93%'></Image>   
+          <a href="https://www.keshogrouprentals.com/HiddenDiamondBuckhead"><Image src={livingroom} width='93%'></Image></a>   
         </div>         
         
         <div className="buttons" align="center">
@@ -51,7 +51,7 @@ function Reservations() {
           2 bedrooms | 1 bath | 1,000 sqft   
         </div>
         <div>
-          <Image src={camliv2} width='93%'> </Image>
+          <a href="https://www.keshogrouprentals.com/HiddenDiamondAshviewHeights"><Image src={camliv2} width='93%'></Image></a>
         </div>  
         
         <div className="buttons" align="center">
