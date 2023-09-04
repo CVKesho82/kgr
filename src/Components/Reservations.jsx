@@ -29,7 +29,7 @@ function Reservations() {
         </div> 
                 
         <div>
-          <a href="https://www.keshogrouprentals.com/HiddenDiamondBuckhead"><Image src={livingroom} width='93%' height="435vh" gap="10px"></Image></a>  
+          <a href="https://www.keshogrouprentals.com/HiddenDiamondBuckhead"><Image src={livingroom} width='93%' height="425vh" gap="10px"></Image></a>  
         </div>      
         
         <div className="buttons" align="center">
