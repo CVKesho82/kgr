@@ -29,16 +29,20 @@ function Reservations() {
         </div> 
                 
         <div>
-          <a href="https://www.keshogrouprentals.com/HiddenDiamondBuckhead"><Image src={livingroom} width='93%'></Image></a>   
-        </div>         
+          <a href="https://www.keshogrouprentals.com/HiddenDiamondBuckhead"><Image src={livingroom} width='93%' height="435vh" gap="10px"></Image></a>  
+        </div>      
         
         <div className="buttons" align="center">
           <Button variant="outline-danger" size="sm" href="https://www.airbnb.com/h/HiddenDiamondBuckhead">Airbnb</Button><br></br><br></br>
           <Button variant="outline-danger" size="sm" href="https://www.vrbo.com/2625615">VRB0</Button><br></br><br></br>
           <Button variant="outline-danger" size="sm" href="https://www.keshogrouprentals.com/EventRequest">Request Weddings & Events</Button><br></br><br></br>
+          <Button variant="outline-danger" size="sm" href="https://www.honeybook.com/widget/kesho_group_llc_249517/cf_id/64199c151caa77002d168106">Book Now</Button><br></br><br></br>
+        
         </div>
       </Container>  
       
+      <br></br>
+      <br></br>
       <br></br>
       <br></br>
 
@@ -53,7 +57,7 @@ function Reservations() {
         <div>
           <a href="https://www.keshogrouprentals.com/HiddenDiamondAshviewHeights"><Image src={camliv2} width='93%'></Image></a>
         </div>  
-        
+     
         <div className="buttons" align="center">
           <Button variant="outline-danger" size="sm"  href="Airbnb // https://www.airbnb.com/h/HiddenDiamond">Airbnb</Button><br></br><br></br>
           <Button variant="outline-danger" size="sm"  href="https://www.honeybook.com/widget/kesho_group_llc_249517/cf_id/63f7a7550d45c505d338a588">Book Now</Button>
