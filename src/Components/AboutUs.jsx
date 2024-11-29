@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container, Image} from 'react-bootstrap';
-import Chris from '../Assets/images/chris.jpg';
+/*import Chris from '../Assets/images/chris.jpg';*/
 
 function AboutUs() {
   return (
